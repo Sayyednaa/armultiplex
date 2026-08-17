@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0f2537" />
+    </linearGradient>
+    <linearGradient id="steelSilver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0284c7" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Dual Swoosh Arcs Above AR Monogram -->
+  <path d="M 12,50 C 25,12 85,6 145,28 C 120,20 65,22 35,46 Z" fill="url(#logoBlueGrad)" />
+  <path d="M 28,58 C 45,26 95,20 152,42 C 128,34 78,35 50,54 Z" fill="url(#steelSilver)" />
+
+  <!-- Stylized 'A' -->
+  <path d="M 30,105 L 62,28 L 78,28 L 102,105 L 84,105 L 75,76 L 47,76 L 39,105 Z M 52,62 L 70,62 L 61,35 Z" 
+        fill="url(#logoBlueGrad)" filter="url(#glowEffect)" />
+
+  <!-- Stylized 'R' overlapping A -->
+  <path d="M 82,28 L 118,28 C 135,28 148,37 148,53 C 148,65 138,73 125,76 L 152,105 L 132,105 L 108,79 L 98,79 L 98,105 L 82,105 Z M 98,42 L 98,65 L 116,65 C 125,65 131,60 131,53 C 131,46 125,42 116,42 Z" 
+        fill="url(#logoBlueGrad)" filter="url(#glowEffect)" />
+
+  <!-- Accent dot / spark -->
+  <circle cx="146" cy="28" r="3.5" fill="#38bdf8" />
+
+  <!-- Text: AR MULTIPLEX -->
+  <text x="175" y="60" font-family="'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="34" fill="#0f2537" letter-spacing="2">
+    AR MULTIPLEX
+  </text>
+
+  <!-- Divider Line with Decorative Center Diamond -->
+  <line x1="175" y1="74" x2="310" y2="74" stroke="#0284c7" stroke-width="2" stroke-linecap="round" />
+  <polygon points="325,74 329,70 333,74 329,78" fill="#38bdf8" />
+  <line x1="348" y1="74" x2="480" y2="74" stroke="#0284c7" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Text: ENTERPRISES -->
+  <text x="176" y="98" font-family="'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="16" fill="#475569" letter-spacing="8.5">
+    ENTERPRISES
+  </text>
+
+  <!-- Tagline subtext -->
+  <text x="177" y="118" font-family="'Inter', sans-serif" font-weight="600" font-size="10.5" fill="#0284c7" letter-spacing="1">
+    QUALITY FABRICATION &amp; SMART SOLUTIONS
+  </text>
+</svg>
